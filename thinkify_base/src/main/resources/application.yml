@@ -1,0 +1,7 @@
+server:
+  port: 8899
+spring:  application:    name: thinkify-base  jpa:    database: mysql
+    show-sql: true  datasource:    url: jdbc:mysql://119.29.63.251:3308/thinkify_base?characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456    
